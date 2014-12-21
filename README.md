@@ -7,6 +7,8 @@ Roadmap for ClearElection development.
 
 To build a basic/minimal collection of components for an end-to-end functiontioning election.  Including:
 
+* Schema repository
+
 * Ruby SDK [clear-election-sdk-ruby](https://github.com/ClearElection/clear-election-sdk-ruby)
 
 * CLI tool to manage elections.  For now, author the election JSON by hand.  The tool will have commands to:
