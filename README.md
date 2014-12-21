@@ -3,7 +3,9 @@ ROADMAP
 
 Roadmap for ClearElection development.
 
-The initial goal is to build a basic/minimal collection of components for an end-to-end functiontioning election.  Including:
+## Initial Goal
+
+To build a basic/minimal collection of components for an end-to-end functiontioning election.  Including:
 
 * Ruby SDK [clear-election-sdk-ruby](https://github.com/ClearElection/clear-election-sdk-ruby)
 
@@ -27,7 +29,7 @@ The initial goal is to build a basic/minimal collection of components for an end
 
 * Voting client (static responsive website)
 
-* Returns-viewing client (static responsive website).
+* Basic returns-viewing client (static responsive website).
    * Find your name
    * Find your ballotid
    * Display tallies
@@ -36,11 +38,32 @@ The initial goal is to build a basic/minimal collection of components for an end
 
 * Javascript SDK (not sure if it's needed -- just work directly with the json data?)
 
-These can be created in mostly any order.  High on the list is to
+First subgoals:
 
-1. Dummy up an election with returns data
-2. Make the returns-viewing client
-3. Set this up as a demo, linked to from the info site
+1. Make the returns-viewing client
+2. Create a demo using dummied up election data, linked to from the info site
+3. Build the CLI management tool and Javascript libraries as needed to support the first two subgoals.
+
+   
+## Future Components
+
+Possibilities include...
+
+* Mobile voter client
+   * stores ballot id's
+   * alerts when polls close / confirms voter listed in returns
+   * includes returns viewer
+   
+* Hosted election authoring/management site
+
+* Hosted voter registration
+	* Authentication can include emailed registration key, etc.
+	* Corresponding signin agent
+	
+* Facebook plugin for election authoring & voting.
+
+* Election browser (for elections stored in known locations)
+
    
 
 
