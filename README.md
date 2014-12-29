@@ -10,6 +10,9 @@ To build a basic/minimal collection of components for an end-to-end functiontion
 * Schema repository
 
 * Ruby SDK [clear-election-sdk-ruby](https://github.com/ClearElection/clear-election-sdk-ruby)
+  * Status: Basic capability working.
+  * TODO: Move schema mastering into separate repository
+  * TODO: Add features if/as needed
 
 * CLI tool to manage elections.  For now, author the election JSON by hand.  The tool will have commands to:
   * Validate the definition against schema
@@ -19,8 +22,9 @@ To build a basic/minimal collection of components for an end-to-end functiontion
 * Static website to display & tally election returns
 
 * A basic booth agent [booth-agent](https://github.com/ClearElection/booth-agent)
-  * Ideally migrate the current core authentication/casting mechanism to a rails engine, which can be used with several different agent apps that might authorize their use in different ways.
-
+  * Status: Basic capability working as evidenced by rspec
+  * TODO: migrate the current core authentication/casting mechanism to a separate rails engine gem, which can be used with several different agent apps that might authorize their use in different ways.  Current agent becomes a thin layer on top of that gem.
+  * TODO: deploy live when the rest of the chain is ready(heroku or elsewhere)
 
 * A basic signin agent.  Options:
   * No authentication, just write your name (like basic Doodle)
@@ -53,7 +57,7 @@ Possibilities include...
 
 * Mobile voter client
    * stores ballot id's
-   * alerts when polls close / confirms voter listed in returns
+   * alerts when polls close / confirms voter & ballot listed in returns
    * includes returns viewer
    
 * Hosted election authoring/management site
