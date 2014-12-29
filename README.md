@@ -50,6 +50,9 @@ First subgoals:
 2. Create a demo using dummied up election data, linked to from the info site
 3. Build the CLI management tool and Javascript libraries as needed to support the first two subgoals.
 
+Also needed: Create & populate [docs.clearelection.org](http://docs.clearelection.org)
+
+
    
 ## Future Components
 
