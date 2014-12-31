@@ -1,7 +1,7 @@
 ROADMAP
 =======
 
-Roadmap for ClearElection development.
+Roadmap for ClearElection development.  Comments, Suggestions, and Contributions are welcome!
 
 ## Initial Goal
 
